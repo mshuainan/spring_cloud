@@ -9,9 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud_dept_provider_8000</artifactId>
+    <artifactId>springcloud_dept_provider_hystrix_8001</artifactId>
 
     <dependencies>
+        <!-- hystrix -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
         <!-- 引入自己定义的api通用包，可以使用Dept部门Entity -->
         <dependency>
             <groupId>com.shnma.springcloud</groupId>
@@ -56,8 +61,8 @@
             <artifactId>springloaded</artifactId>
         </dependency>
         <!--<dependency>-->
-            <!--<groupId>org.springframework</groupId>-->
-            <!--<artifactId>spring-boot-devtools</artifactId>-->
+        <!--<groupId>org.springframework</groupId>-->
+        <!--<artifactId>spring-boot-devtools</artifactId>-->
         <!--</dependency>-->
         <!-- 将微服务provider侧注册进eureka -->
         <dependency>
@@ -74,5 +79,4 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
-
 </project>

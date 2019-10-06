@@ -98,6 +98,9 @@
         <module>springcloud_dept_provider_8001</module>
         <module>springcloud_dept_provider_8002</module>
         <module>springcloud_dept_consumer_9000</module>
+        <module>springcloud_dept_consumer_feign</module>
+        <module>springcloud_dept_provider_hystrix_8001</module>
+        <module>springcloud_dept_provider_hystrix_dashboard</module>
     </modules>
 
 </project>
