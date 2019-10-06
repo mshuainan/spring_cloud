@@ -101,6 +101,7 @@
         <module>springcloud_dept_consumer_feign</module>
         <module>springcloud_dept_provider_hystrix_8001</module>
         <module>springcloud_dept_provider_hystrix_dashboard</module>
+        <module>springcloud_zuul_gateway_9527</module>
     </modules>
 
 </project>
