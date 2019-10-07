@@ -102,6 +102,10 @@
         <module>springcloud_dept_provider_hystrix_8001</module>
         <module>springcloud_dept_provider_hystrix_dashboard</module>
         <module>springcloud_zuul_gateway_9527</module>
+        <module>springcloud_config_3344</module>
+        <module>springcloud_config_client_3355</module>
+        <module>springcloud_config_eureka_client_7001</module>
+        <module>springcloud_config_dept_client_8001</module>
     </modules>
 
 </project>
